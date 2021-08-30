@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+  display:block;
+}
+
+.App-header {
+  padding-top: 10px;
+  background-color: teal;
+  height: 12vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+  top: 0;
+  width: 100%;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.tabs a {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.tabs a:hover {
+  background-color: white;
+  color: teal;
+  border: 2px;
+  transition: .4s;
+  font-weight: bolder;
+}
+
+.tabs a:focus {
+  background-color: white;
+  color: teal;
+  font-weight: bold;
+  opacity: 0.8;
+  border: 2px;
+}
+
+
+
+.tabs {
+  margin-bottom: 0px;
+  float: left;
+}
+
+.body{
+  text-align: left;
+  margin: 0 35px;
+  
+}
+
+.body p{
+  text-align: justify;
+  font-size: 15px;
+  font-family:  'Aktiv Grotesk','Lucida Sans', 
+                'Lucida Sans Regular', 'Lucida Grande', 
+                'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.personal-profile{
+  margin-top: 30px;
+}
+
+.icons {
+  display: flex;
+  margin-right: 30px;
+  color: rgb(2, 97, 97);
+  margin-top: 25px;
+  margin-bottom: -20;
+}
+
+.icons-flex{
+  display: flex;
+}
+
+
+
+.icons-text p, a{
+  margin-left: 20px;
+  font-weight: bolder;
+  margin-top: 0;
+}
+
+.icons-text a{
+  text-decoration: none;
+  color: black;
+}
+.icons-text a:hover{
+  color: teal;
+}
+
+.body-view{
+  margin-bottom: 7rem;
+}
+
+.footer{
+  background-color: teal;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  padding-top: 1rem;
+  justify-content: center;
+  display: block;
+  }
+ 
+
+.footer a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  justify-self: center;
+  width: 20px;
+  padding-bottom: 0.8rem;
+}
+
+.footer a:hover{
+  color: yellow;
+}
+
+.copyright a{
+  font-weight: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: gainsboro;
+}
+
+
+.card{
+  width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3;
+  
+  
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.container{
+  padding: 2px 8px;
+  margin: 0;
+  float: none;
+}
+
+.contact-footer{
+  background-color: teal;
+  width: 100%;
+  height: 10px;
+  
+}
+
+.references{
+  display: flex;
+  cursor: pointer;
+  margin-left: 2em;
+  margin-top: 2em; 
+  
+}
